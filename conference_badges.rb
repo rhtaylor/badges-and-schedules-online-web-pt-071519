@@ -23,7 +23,8 @@ def assign_rooms(array)
   nuw
 end
 def printer(array)
-   batch_badge_creator(array) do |x|
+   nice = batch_badge_creator(array) 
+   nice.each do |x|
      puts x
    end
   y = assign_rooms(array)
