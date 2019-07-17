@@ -23,7 +23,7 @@ def assign_rooms(array)
   nuw
 end
 def printer(array)
-   nice = batch_badge_creator(array) 
+   nice = batch_badge_creator(array)
    nice.each do |x|
      puts x
    end
